@@ -1,3 +1,4 @@
+#episode-0408-malek-allen/is_leap_year.py
 def is_leap_year(year: int) -> bool:
     """
     Any given year is a leap year if:
@@ -14,7 +15,7 @@ def is_leap_year(year: int) -> bool:
     else:
         return False
 
-
+#testcases
 if __name__ == "__main__":
     print(is_leap_year(2000))  # True
     print(is_leap_year(2001))  # False
@@ -24,4 +25,5 @@ if __name__ == "__main__":
     print(is_leap_year(2001))  # False
     print(is_leap_year(2024))  # True
     print(is_leap_year(2026))  # False
+    print(is_leap_year(2025))  # False
 
