@@ -10,7 +10,7 @@ def is_valid_date(year: int, month: int, day: int) -> bool:
         return False
 
     return 1 <= day <= max_day
-
+#Useless sample comment -allen :)
 
 if __name__ == "__main__":
     print(is_valid_date(2020, 2, 29))  # True
